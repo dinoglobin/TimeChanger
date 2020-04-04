@@ -17,6 +17,6 @@ def generate_image(text):
     text1 = '  Ты прочтёшь это в'
     font1 = ImageFont.truetype(font='resources/17372.otf', size = 50)
     wt1, ht1 = draw.textsize(text1, font=font1)
-    draw.text(((W - wt) / 2 + 10, 100 ), text1, font = font1, fill = '#42aaff')
+    draw.text(((W - wt) / 2, 100 ), text1, font = font1, fill = '#42aaff')
 	
     image.save('time_image.jpg')
